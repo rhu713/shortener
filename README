@@ -1,0 +1,7 @@
+Run the shortener web server on port 8888 by running:
+java -jar webmain.jar
+
+This will create a file named "testdb" in the current directory that's intended to act as a simple persistence for the shortened URLs in case the server goes down. Multiple servers are currently not supported because we are not using a real database here, just reading and writing to a file without locking.
+
+
+
